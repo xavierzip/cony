@@ -1,0 +1,16 @@
+{
+  "name": "cony",
+  "version": "0.1.0",
+  "description": "A home assistant providing you information for your ears.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xavier Mao",
+  "license": "ISC",
+  "dependencies": {
+    "google-auth-library": "^0.9.6",
+    "googleapis": "^2.1.3",
+    "moment": "^2.10.6"
+  }
+}
