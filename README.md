@@ -6,6 +6,6 @@ Clone the project and run
 ```
 npm install
 ```
-Update relevant API keys in configuration files.
+Create local copies of the configuration files 'config.json.local & client_secret.json.local' and update relevant API keys in these local copies.
 
 > Written with [StackEdit](https://stackedit.io/).
