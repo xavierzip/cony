@@ -1,0 +1,22 @@
+{
+	"consumer_key": "967970658455-u465vou66rh0hrprr7mak49rjthockco.apps.googleusercontent.com",
+	"consumer_secret": "LqtNTZpPnOxOtGwc-C60LIcU",
+	"secrets":{
+		"LTA":{
+			"AccountKey": "LzlWwpSJtvxbqa2cbiV6oQ==",
+			"UniqueUserID": "4764dbec-cbb4-46f9-b611-ede559faf0c7"
+		}
+	},
+	"features":{
+		"bus":{
+			"favorite_bus_id": [
+				{
+					"bus_stop_id": 92079,
+					"bus_id": 55
+				}
+			],
+			"favorite_bus_stop_id": [92079],
+			"nearby_bus_stop_id":[92079]
+		}
+	}
+}
