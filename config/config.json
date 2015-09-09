@@ -7,10 +7,29 @@
 	},
 	"features":{
 		"bus":{
-			"favorite_bus_id": [
+			"schedule":{
+				"weekend_ind": false,
+				"local_time": {
+					"hour": 14,
+					"minute": 52
+				}
+			},
+			"favorite_buses": [
+				{
+					"bus_stop_id": 92301,
+					"bus_id": 15
+				},
 				{
 					"bus_stop_id": 92079,
 					"bus_id": 55
+				},
+				{
+					"bus_stop_id": 92071,
+					"bus_id": 31
+				},
+				{
+					"bus_stop_id": 92071,
+					"bus_id": 48
 				}
 			],
 			"favorite_bus_stop_id": [92079],
