@@ -13,6 +13,10 @@ Tests are implemented using mocha and chai. chai is already listed in package.js
 ```
 (sudo) npm install -g mocha
 ```
-to run the tests.
+before running any tests using
+```
+mocha
+```
+
 
 > Written with [StackEdit](https://stackedit.io/).
