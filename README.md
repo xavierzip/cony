@@ -14,7 +14,7 @@ Hmm, the idea is to have the system checking for arrival time of my frequent-tak
 ###Google News Checker
 (Under construction)
 
-###Google Canlendar Checker
+###Google Calendar Checker
 (Under construction)
 
 ##Installation
