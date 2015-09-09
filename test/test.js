@@ -79,7 +79,7 @@ describe("sgbus", function(){
 			});
 		});
 	});
-	describe(".speak", function(){
+	describe("#speak", function(){
 		describe("#bustime", function(){
 			it("should return a script string with at least a bus id", function(){
 				var bus_stop_id = 92079;
@@ -87,6 +87,31 @@ describe("sgbus", function(){
 				sgbus.speak.bustime(bus_stop_id, bus_id, function(err, buses_arriving_time){
 					expect(buses_arriving_time).to.be.a('string');
 					expect(buses_arriving_time).to.include(bus_id.toString());
+				});
+			});
+		});
+		describe("#favoritebustime", function(){
+			it("should return a script string", function(){
+				var favorite_buses = [
+					{
+						"bus_stop_id": 92301,
+						"bus_id": 15
+					},
+					{
+						"bus_stop_id": 92079,
+						"bus_id": 55
+					},
+					{
+						"bus_stop_id": 92071,
+						"bus_id": 31
+					},
+					{
+						"bus_stop_id": 92071,
+						"bus_id": 48
+					}
+				]
+				sgbus.speak.favoritebustime(favorite_buses, function(err, buses_arriving_time){
+					expect(buses_arriving_time).to.be.a('string');
 				});
 			});
 		});
