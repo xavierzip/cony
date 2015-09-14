@@ -11,6 +11,9 @@ The main idea is to feed the information to our ears. Currently I am using unoff
 ###Bus Checker
 Hmm, the idea is to have the system checking for arrival time of my frequent-taking buses automatically on schedule. The library is using APIs provided by Land Transport Authority of Singapore. So it only works for Singapore public transport for now. They have been doing a good job to make them available. But, as IT systems always are, sometimes the APIs are just not working. 
 
+>**Speech Format**
+>Greetings, Bus [*] is arriving (in * minutes). * minutes later bus [] will arrive. * minutes later bus [] will arrive. ... hope it helps!
+
 ###Google News Checker
 (Under construction)
 
